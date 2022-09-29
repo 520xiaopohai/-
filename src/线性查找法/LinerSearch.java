@@ -1,3 +1,4 @@
+package 线性查找法;
 public class LinerSearch {
     private LinerSearch(){}
     /// 将方法作为范型方法 <E> 
@@ -13,13 +14,13 @@ public class LinerSearch {
         int res = LinerSearch.search(data, 99);
         System.out.println(res);
 
-        Student[] students = {
-            new Student("alice"),
-            new Student("bob"),
-            new Student("morty")};
-        Student bob = new Student("bob");
-        int res2 = LinerSearch.search(students, bob);
-        System.out.println(res2);
+        // Student[] students = {
+        //     new Student("alice"),
+        //     new Student("bob"),
+        //     new Student("morty")};
+        // Student bob = new Student("bob");
+        // int res2 = LinerSearch.search(students, bob);
+        // System.out.println(res2);
 
     }
     
